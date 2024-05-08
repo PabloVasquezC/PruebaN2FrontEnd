@@ -1,3 +1,13 @@
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+button a:hover {
+    text-decoration: none;
+    color: black;
+}
+
 .nav-light, .nav-dark {
     position: fixed;
     transition: background-color 300ms ease-in-out;  
@@ -23,6 +33,12 @@
 
 .nav-link-light {
     color: black;
+}
+
+
+#loginIcon, #logoIcon {
+    transform: translateY(6px);
+    
 }
 
 .text-white {
@@ -52,4 +68,8 @@
 #secondTextContainer{
     border-radius: 50px;
     background: linear-gradient(90deg, black 50%, gray 100%);
+}
+
+footer {
+    height: 80px;
 }
