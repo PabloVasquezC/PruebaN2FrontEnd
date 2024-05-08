@@ -1,3 +1,42 @@
+.nav-light, .nav-dark {
+    position: fixed;
+    transition: background-color 300ms ease-in-out;  
+}
+
+.nav-link-dark, .nav-link-light {
+    transition: color 300ms ease-in-out;  
+}
+
+.nav-dark {
+    background-color: black;
+    color: white;  
+}
+
+.nav-light {
+    background-color: white;
+    color: black;
+}
+
+.nav-link-dark {
+    color: white;
+}
+
+.nav-link-light {
+    color: black;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-black {
+    color: black;
+}
+
+#firstSection {
+    margin-top: 100px;
+}
+
 .carousel-item img {
     height: 400px;  
     object-fit: cover; 
@@ -5,10 +44,12 @@
     border-radius: 50px;
 }
 
-section div p {
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 1.5rem;
+#firstTextContainer{
+    border-radius: 50px;
+    background: linear-gradient(320deg, black 50%, gray 100%);
+}
+
+#secondTextContainer{
+    border-radius: 50px;
+    background: linear-gradient(90deg, black 50%, gray 100%);
 }
