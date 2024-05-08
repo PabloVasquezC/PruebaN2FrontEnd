@@ -4,37 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>awakeYourBeast</title>
+    
     <!-- CSS Link -->
     <link rel="stylesheet" href="CSS/main.css">
+    
     <!-- CDN bootstrap 5.3.3 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
     <!-- bootstrap-icons -->
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
 </head>
-<body class="d-flex justify-content-center">
+<body class="d-flex justify-content-center bg-black">
     
     <header>
         <nav class="d-flex container border rounded justify-content-between m-3 align-content-center">
             <!-- Logo & Name -->
             <div class="d-flex w-25">
-                <i class="bi bi-fire"></i>
-                <span>YourBeast</span>
+                <i class="bi bi-fire text-white"></i>
+                <span class="text-white">YourBeast</span>
             </div>
             
             <!-- Nav Links -->
-            <div class="d-flex">
-                <p><a href="#" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover m-2">Temple</a></p>
-                <p><a href="#" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover m-2">Challenge</a></p>
-                <p><a href="#" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover m-2">bout Us</a></p>
+            <div class="d-flex ">
+                <p><a href="#" class="text-white link-white link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover m-2">Temple</a></p>
+                <p><a href="#" class="text-white link-gray link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover m-2">Challenge</a></p>
+                <p><a href="#" class="text-white link-gray link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover m-2">bout Us</a></p>
             </div>
         </nav>
 
         <!-- Hero -->
-        <section class="row container m-4">
+        <section id="firstSection" class="row container m-4">
             <div class="col">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum sed perferendis, ratione rerum, odio voluptates quidem veniam repellat incidunt commodi recusandae? Eius numquam distinctio voluptatem magni, eos omnis quis expedita.</p>
+                <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum sed perferendis, ratione rerum, odio voluptates quidem veniam repellat incidunt commodi recusandae? Eius numquam distinctio voluptatem magni, eos omnis quis expedita. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum sed perferendis, ratione rerum, odio voluptates quidem veniam repellat incidunt commodi recusandae? Eius numquam distinctio voluptatem magni, eos omnis quis expedita.</p>
             </div>
-            <div id="carouselExampleFade" class="carousel slide carousel-fade col  w-50 h-50" data-bs-ride="carousel">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade col  w-50 h-75" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="5000">
                         <img src="assets/images/meditation.avif" class="d-block w-100" alt="meditation image">
@@ -55,6 +64,37 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+            
+        </section>
+
+        <!-- Second Section -->
+        <section id="secondSection" class="row container m-4">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade col  w-50 h-75" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="assets/images/meditation.avif" class="d-block w-100" alt="meditation image">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="assets/images/sculture.avif" class="d-block w-100" alt="sculture image">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="assets/images/bigBackWoman.avif" class="d-block w-100" alt="big back woman image">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="col">
+                <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum sed perferendis, ratione rerum, odio voluptates quidem veniam repellat incidunt commodi recusandae? Eius numquam distinctio voluptatem magni, eos omnis quis expedita. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum sed perferendis, ratione rerum, odio voluptates quidem veniam repellat incidunt commodi recusandae? Eius numquam distinctio voluptatem magni, eos omnis quis expedita.</p>
+            </div>
+            
             
         </section>
     </header>

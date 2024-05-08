@@ -4,3 +4,11 @@
     width: 100%; 
     border-radius: 50px;
 }
+
+section div p {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+}
